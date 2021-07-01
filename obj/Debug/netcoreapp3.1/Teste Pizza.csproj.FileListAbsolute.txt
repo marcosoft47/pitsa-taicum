@@ -1,0 +1,32 @@
+C:\Users\user\Documents\.Coisas de TI\codigos\csharp\Teste Pizza\bin\Debug\netcoreapp3.1\Teste Pizza.exe
+C:\Users\user\Documents\.Coisas de TI\codigos\csharp\Teste Pizza\bin\Debug\netcoreapp3.1\Teste Pizza.deps.json
+C:\Users\user\Documents\.Coisas de TI\codigos\csharp\Teste Pizza\bin\Debug\netcoreapp3.1\Teste Pizza.runtimeconfig.json
+C:\Users\user\Documents\.Coisas de TI\codigos\csharp\Teste Pizza\bin\Debug\netcoreapp3.1\Teste Pizza.runtimeconfig.dev.json
+C:\Users\user\Documents\.Coisas de TI\codigos\csharp\Teste Pizza\bin\Debug\netcoreapp3.1\Teste Pizza.dll
+C:\Users\user\Documents\.Coisas de TI\codigos\csharp\Teste Pizza\bin\Debug\netcoreapp3.1\Teste Pizza.pdb
+C:\Users\user\Documents\.Coisas de TI\codigos\csharp\Teste Pizza\obj\Debug\netcoreapp3.1\Teste Pizza.csproj.AssemblyReference.cache
+C:\Users\user\Documents\.Coisas de TI\codigos\csharp\Teste Pizza\obj\Debug\netcoreapp3.1\MainWindow.g.cs
+C:\Users\user\Documents\.Coisas de TI\codigos\csharp\Teste Pizza\obj\Debug\netcoreapp3.1\App.g.cs
+C:\Users\user\Documents\.Coisas de TI\codigos\csharp\Teste Pizza\obj\Debug\netcoreapp3.1\Teste Pizza_MarkupCompile.cache
+C:\Users\user\Documents\.Coisas de TI\codigos\csharp\Teste Pizza\obj\Debug\netcoreapp3.1\Teste Pizza_MarkupCompile.lref
+C:\Users\user\Documents\.Coisas de TI\codigos\csharp\Teste Pizza\obj\Debug\netcoreapp3.1\MainWindow.baml
+C:\Users\user\Documents\.Coisas de TI\codigos\csharp\Teste Pizza\obj\Debug\netcoreapp3.1\Teste Pizza.g.resources
+C:\Users\user\Documents\.Coisas de TI\codigos\csharp\Teste Pizza\obj\Debug\netcoreapp3.1\Teste Pizza.AssemblyInfoInputs.cache
+C:\Users\user\Documents\.Coisas de TI\codigos\csharp\Teste Pizza\obj\Debug\netcoreapp3.1\Teste Pizza.AssemblyInfo.cs
+C:\Users\user\Documents\.Coisas de TI\codigos\csharp\Teste Pizza\obj\Debug\netcoreapp3.1\Teste Pizza.csproj.CoreCompileInputs.cache
+C:\Users\user\Documents\.Coisas de TI\codigos\csharp\Teste Pizza\obj\Debug\netcoreapp3.1\Teste Pizza.dll
+C:\Users\user\Documents\.Coisas de TI\codigos\csharp\Teste Pizza\obj\Debug\netcoreapp3.1\Teste Pizza.pdb
+C:\Users\user\Documents\.Coisas de TI\codigos\csharp\Teste Pizza\obj\Debug\netcoreapp3.1\Teste Pizza.genruntimeconfig.cache
+C:\Users\user\Documents\.Coisas de TI\codigos\csharp\Teste Pizza\bin\Debug\netcoreapp3.1\Imagens\calabresa.png
+C:\Users\user\Documents\.Coisas de TI\codigos\csharp\Teste Pizza\bin\Debug\netcoreapp3.1\Imagens\divino.png
+C:\Users\user\Documents\.Coisas de TI\codigos\csharp\Teste Pizza\bin\Debug\netcoreapp3.1\Imagens\doce.png
+C:\Users\user\Documents\.Coisas de TI\codigos\csharp\Teste Pizza\bin\Debug\netcoreapp3.1\Imagens\frango.png
+C:\Users\user\Documents\.Coisas de TI\codigos\csharp\Teste Pizza\bin\Debug\netcoreapp3.1\Imagens\js.png
+C:\Users\user\Documents\.Coisas de TI\codigos\csharp\Teste Pizza\bin\Debug\netcoreapp3.1\Imagens\maconha.png
+C:\Users\user\Documents\.Coisas de TI\codigos\csharp\Teste Pizza\bin\Debug\netcoreapp3.1\Imagens\ovo.png
+C:\Users\user\Documents\.Coisas de TI\codigos\csharp\Teste Pizza\bin\Debug\netcoreapp3.1\Imagens\pneu.png
+C:\Users\user\Documents\.Coisas de TI\codigos\csharp\Teste Pizza\bin\Debug\netcoreapp3.1\Imagens\queijo.png
+C:\Users\user\Documents\.Coisas de TI\codigos\csharp\Teste Pizza\bin\Debug\netcoreapp3.1\Imagens\zap.png
+C:\Users\user\Documents\.Coisas de TI\codigos\csharp\Teste Pizza\obj\Debug\netcoreapp3.1\Teste Pizza_Content.g.cs
+C:\Users\user\Documents\.Coisas de TI\codigos\csharp\Teste Pizza\obj\Debug\netcoreapp3.1\pedirNome.g.cs
+C:\Users\user\Documents\.Coisas de TI\codigos\csharp\Teste Pizza\obj\Debug\netcoreapp3.1\pedirNome.baml

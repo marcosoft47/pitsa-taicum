@@ -1,0 +1,141 @@
+﻿<Window x:Class="Teste_Pizza.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Teste_Pizza"
+        mc:Ignorable="d"
+        Title="pitsa" Height="700" Width="600" Loaded="pizzaria_onload"
+        WindowStartupLocation="CenterScreen" ResizeMode="NoResize">
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="150"/>
+            <ColumnDefinition Width="150"/>
+            <ColumnDefinition Width="150"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <StackPanel>
+            <Label Name="dinheiroShow"  Content="Dinheiro: 0" FontSize="20"/>
+        </StackPanel>
+
+        <!--queijo, calabresa, doce, ovo, frango, maconha, pneu, js, zap, jao-->
+        <!--Coluna 1-->
+        <StackPanel Grid.Column="0" Grid.Row="1" HorizontalAlignment="Center">
+
+            <!--Queijo-->
+            <Button Height="80" Width="80" Name="queijoStart" Click="queijoStart_Click" Foreground="#00000000" BorderBrush="#00707070" Background="#00DDDDDD">
+                <Button.Content>
+                    <Image Source="/queijo.png"/>
+                </Button.Content>
+            </Button>
+            <TextBlock x:Name="txtQueijo" Text="nomeQueijo" FontSize="20" Margin="0 5 0 0" HorizontalAlignment="Center"/>
+
+            <!--Calabresa-->
+            <Button Height="80" Width="80" Name="calabresaStart" Click="calabresaStart_Click" Foreground="#00000000" BorderBrush="#00707070" Background="#00DDDDDD" Visibility="Hidden">
+                <Button.Content>
+                    <Image Source="Imagens/calabresa.png"/>
+                </Button.Content>
+            </Button>
+            <TextBlock x:Name="txtCalabresa" Text="nomeCalabresa" FontSize="20" Margin="0 5 0 0" HorizontalAlignment="Center" Visibility="Hidden"/>
+
+            <!--Doce-->
+            <Button Height="80" Width="80" Name="doceStart" Click="doceStart_Click" Foreground="#00000000" BorderBrush="#00707070" Background="#00DDDDDD" Visibility="Hidden">
+                <Button.Content>
+                    <Image Source="Imagens/doce.png"/>
+                </Button.Content>
+            </Button>
+            <TextBlock x:Name="txtDoce" Text="nomeDoce" FontSize="20" Margin="0 5 0 0" HorizontalAlignment="Center" Visibility="Hidden"/>
+
+            <!--Ovo-->
+            <Button Height="80" Width="80" Name="ovoStart" Click="ovoStart_Click" Foreground="#00000000" BorderBrush="#00707070" Background="#00DDDDDD" Visibility="Hidden">
+                <Button.Content>
+                    <Image Source="Imagens/ovo.png"/>
+                </Button.Content>
+            </Button>
+            <TextBlock x:Name="txtOvo" Text="nomeOvo" FontSize="20" Margin="0 5 0 0" HorizontalAlignment="Center" Visibility="Hidden"/>
+
+            <!--Frango-->
+            <Button Height="80" Width="80" Name="frangoStart" Click="frangoStart_Click" Foreground="#00000000" BorderBrush="#00707070" Background="#00DDDDDD" Visibility="Hidden">
+                <Button.Content>
+                    <Image Source="Imagens/frango.png"/>
+                </Button.Content>
+            </Button>
+            <TextBlock x:Name="txtFrango" Text="nomeFrango" FontSize="20" Margin="0 5 0 0" HorizontalAlignment="Center" Visibility="Hidden"/>
+        </StackPanel>
+
+        <!--Carregar Coluna 1-->
+        <StackPanel Grid.Column="1" Grid.Row="1" HorizontalAlignment="Center">
+            <ProgressBar Width="140" Height="50" Name="queijoLoading" Margin="0 15 0 0"/>
+            <ProgressBar Width="140" Height="50" Name="calabresaLoading" Margin="0 65 0 0" Visibility="Hidden"/>
+            <ProgressBar Width="140" Height="50" Name="doceLoading" Margin="0 65 0 0" Visibility="Hidden"/>
+            <ProgressBar Width="140" Height="50" Name="ovoLoading" Margin="0 65 0 0" Visibility="Hidden"/>
+            <ProgressBar Width="140" Height="50" Name="frangoLoading" Margin="0 65 0 0" Visibility="Hidden"/>
+        </StackPanel>
+
+
+        <!--Coluna 2-->
+        <StackPanel Grid.Column="2" Grid.Row="1" HorizontalAlignment="Center">
+
+            <!--Maconha-->
+            <Button Height="80" Width="80" Name="maconhaStart" Click="maconhaStart_Click" Foreground="#00000000" BorderBrush="#00707070" Background="#00DDDDDD" Visibility="Hidden">
+                <Button.Content>
+                    <Image Source="Imagens/maconha.png"/>
+                </Button.Content>
+            </Button>
+            <TextBlock x:Name="txtMaconha" Text="nomeMaconha" FontSize="20" Margin="0 5 0 0" HorizontalAlignment="Center" Visibility="Hidden"/>
+
+            <!--Pneu-->
+            <Button Height="80" Width="80" Name="pneuStart" Click="pneuStart_Click" Foreground="#00000000" BorderBrush="#00707070" Background="#00DDDDDD" Visibility="Hidden">
+                <Button.Content>
+                    <Image Source="Imagens/pneu.png"/>
+                </Button.Content>
+            </Button>
+            <TextBlock x:Name="txtPneu" Text="nomePneu" FontSize="20" Margin="0 5 0 0" HorizontalAlignment="Center" Visibility="Hidden"/>
+
+            <!--JS-->
+            <Button Height="80" Width="80" Name="jsStart" Click="jsStart_Click" Foreground="#00000000" BorderBrush="#00707070" Background="#00DDDDDD" Visibility="Hidden">
+                <Button.Content>
+                    <Image Source="Imagens/js.png"/>
+                </Button.Content>
+            </Button>
+            <TextBlock x:Name="txtJs" Text="nomeJs" FontSize="20" Margin="0 5 0 0" HorizontalAlignment="Center" Visibility="Hidden"/>
+
+            <!--Zap-->
+            <Button Height="80" Width="80" Name="zapStart" Click="zapStart_Click" Foreground="#00000000" BorderBrush="#00707070" Background="#00DDDDDD" Visibility="Hidden">
+                <Button.Content>
+                    <Image Source="Imagens/zap.png"/>
+                </Button.Content>
+            </Button>
+            <TextBlock x:Name="txtZap" Text="nomeZap" FontSize="20" Margin="0 5 0 0" HorizontalAlignment="Center" Visibility="Hidden"/>
+
+            <!--Joao-->
+            <Button Height="80" Width="80" Name="joaoStart" Click="joaoStart_Click" Foreground="#00000000" BorderBrush="#00707070" Background="#00DDDDDD" Visibility="Hidden">
+                <Button.Content>
+                    <Image Source="Imagens/divino.png"/>
+                </Button.Content>
+            </Button>
+            <TextBlock x:Name="txtJoao" Text="nomeJoao" FontSize="20" Margin="0 5 0 0" HorizontalAlignment="Center" Visibility="Hidden"/>
+        </StackPanel>
+
+        <StackPanel Grid.Column="3" Grid.Row="1" HorizontalAlignment="Center" Grid.ColumnSpan="2">
+            <ProgressBar Width="140" Height="50" Name="maconhaLoading" Margin="0 15 0 0" Visibility="Hidden"/>
+            <ProgressBar Width="140" Height="50" Name="pneuLoading" Margin="0 65 0 0" Visibility="Hidden"/>
+            <ProgressBar Width="140" Height="50" Name="jsLoading" Margin="0 65 0 0" Visibility="Hidden"/>
+            <ProgressBar Width="140" Height="50" Name="zapLoading" Margin="0 65 0 0" Visibility="Hidden"/>
+            <ProgressBar Width="140" Height="50" Name="joaoLoading" Margin="0 65 0 0" Visibility="Hidden"/>
+        </StackPanel>
+
+        <StackPanel Grid.Column="2" Grid.Row="0" Grid.ColumnSpan="2">
+            <Button x:Name="comprar" Content="Comprar Sabor (100)" Click="comprar_Click" Height="40" Width="200" FontSize="15" Margin="0 0 10 0" HorizontalAlignment="Right" />
+        </StackPanel>
+        <StackPanel Grid.Column="1" HorizontalAlignment="Right">
+            <TextBlock Name="nomePizza" Text="" FontSize="20"/>
+        </StackPanel>
+    </Grid>
+</Window>

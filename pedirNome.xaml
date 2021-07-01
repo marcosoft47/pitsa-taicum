@@ -1,0 +1,29 @@
+﻿<Window x:Class="Teste_Pizza.pedirNome"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Teste_Pizza"
+        mc:Ignorable="d"
+        Title="pedirNome" Height="200" Width="400" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="100"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="300"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        
+        <StackPanel Grid.Row="0" Grid.ColumnSpan="2">
+            <TextBlock Text="Por favor, diga o nome da sua pizzaria:" FontSize="12" HorizontalAlignment="Center" Margin="0 70 0 0"/>
+        </StackPanel>
+        <StackPanel Grid.Row="1" HorizontalAlignment="Left">
+            <TextBox x:Name="nomeDigitado" Width="290" Margin="10 30 0 0"/>
+        </StackPanel>
+        <StackPanel Grid.Row="1" Grid.Column="1">
+            <Button x:Name="aceitarNome" Content="Ok" Click="aceitarNome_Click" Margin="0 30 0 0" Width="50"/>
+        </StackPanel>
+    </Grid>
+</Window>
